@@ -1,0 +1,86 @@
+.loginComp{
+
+    background-image: linear-gradient(to top ,rgb(77, 77, 255), rgb(250, 70, 250));
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    overflow-y: auto;
+    overflow-x: hidden;
+    
+}
+.login__img{
+    
+    position: absolute;
+    width: 60%;
+    height: 100%;
+    object-fit: contain;
+    opacity: 0.3;
+}
+.login__wrapper{
+    position: absolute;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-image: linear-gradient(to top ,rgb(244, 253, 189), rgb(252, 199, 252));;
+    height: 100%;
+}
+.heading__deals{
+
+    margin: 7px;
+}
+.wrapper__login{
+
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 10px 0px;
+    padding: -5px 5px;
+    border: 1px solid rgb(202, 202, 202);
+    border-radius: 5px;
+    box-shadow: 0px 0px 1px 1px rgb(230, 230, 230);
+    height: 60vh;
+    
+}
+.login__inputs{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.login__inputs--input{
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 10px;
+}
+
+.login__inputs--input>input{
+
+    height: 24px;
+    border-radius: 5px;
+    border: 1px solid rgb(207, 207, 207);
+    outline: none;
+}
+.login__btn{
+
+    width: 95%;
+    margin-top: 10px;
+    height: 30px;
+}
+.login__btn>button{
+
+    width: 100%;
+    background-color: rgb(255, 227, 103);
+    height: 100%;
+    border: 1px solid black;
+    border-radius: 2px;
+
+}
+.hr__line{
+
+    border: 1px dashed rgb(196, 196, 196);
+    width: 50%;
+}

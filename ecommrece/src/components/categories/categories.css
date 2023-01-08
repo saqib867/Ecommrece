@@ -1,0 +1,18 @@
+.categories{
+
+    margin: 10px 10px;
+}
+.categories>div{
+
+    display: flex;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width:600px) {
+
+    .categories>div{
+
+        display: flex;
+        flex-direction: column;
+    }
+}

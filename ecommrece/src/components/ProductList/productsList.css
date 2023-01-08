@@ -1,0 +1,55 @@
+
+.productList__container{
+    height:100%;
+    background-image: linear-gradient(to top ,rgb(255, 188, 213),rgb(255, 210, 173));
+    position:relative;
+    display: flex;
+    justify-content: center;
+    z-index: 999;
+    width: 100%;
+}
+.productList__container:hover .productList__icons{
+
+    opacity: 1;
+}
+.productList__container:hover{
+
+    background-color: rgb(136, 191, 255);
+}
+
+.productList__circle{
+    position:absolute;
+    height: 210px;
+    width: 210px;
+    border-radius: 50%;
+    background-color: rgb(254, 246, 240);
+    opacity: 0.5;
+    top: 20px;
+    z-index: -1;
+    
+}
+.productList__icons{
+
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    border-radius: 5px;
+    top: 50%;
+    width: 50%;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+}
+.productList__icon{
+
+    background-color: white;
+    padding: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    
+}
+.productList__icon:hover {
+
+  transform: scale(1.1);
+}
